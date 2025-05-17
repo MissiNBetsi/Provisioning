@@ -24,16 +24,29 @@ WORKFLOWS=(
 
 )
 
-CHECKPOINT_MODELS=(    
+CHECKPOINT_MODELS=( 
+"https://civitai.com/api/download/models/1199750?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+"https://civitai.com/api/download/models/1767402?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 )
 
 UNET_MODELS=(
 )
 
 LORA_MODELS=(
+"https://civitai.com/api/download/models/436219?type=Model&format=SafeTensor"
+"https://civitai.com/api/download/models/901894?type=Model&format=SafeTensor"
+"https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor"
+"https://civitai.com/api/download/models/691705?type=Model&format=SafeTensor"
+"https://civitai.com/api/download/models/1291951?type=Model&format=SafeTensor"
+"https://civitai.com/api/download/models/1591576?type=Model&format=SafeTensor"
+"https://civitai.com/api/download/models/483204?type=Model&format=SafeTensor"
+"https://civitai.com/api/download/models/1122823?type=Model&format=SafeTensor"
+"https://civitai.com/api/download/models/484190?type=Model&format=SafeTensor"
+"https://civitai.com/api/download/models/1054433?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
+"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
 )
 
 ESRGAN_MODELS=(
@@ -43,12 +56,18 @@ CONTROLNET_MODELS=(
 )
 
 TEXT_ENCODERS=(
+"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors"
+"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
 )
 
 DIFFUSION_MODELS=(
+"https://civitai.com/api/download/models/1795036?type=Model&format=GGUF&size=pruned&fp=fp16"
+"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_14B_fp16.safetensors"
+"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_i2v_480p_14B_fp16.safetensors"
 )
 
 CLIP_VISION=(
+"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
