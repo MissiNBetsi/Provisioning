@@ -24,8 +24,7 @@ WORKFLOWS=(
 
 )
 
-CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
+CHECKPOINT_MODELS=(    
 )
 
 UNET_MODELS=(
@@ -41,6 +40,15 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
+)
+
+TEXT_ENCODERS=(
+)
+
+DIFFUSION_MODELS=(
+)
+
+CLIP_VISION=(
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
@@ -68,6 +76,15 @@ function provisioning_start() {
     provisioning_get_files \
         "${COMFYUI_DIR}/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/text_encoders" \
+        "${TEXT_ENCODERS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/diffusion_models" \
+        "${DIFFUSION_MODELS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/clip_vision" \
+        "${CLIP_VISION[@]}"
     provisioning_print_end
 }
 
