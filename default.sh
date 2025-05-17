@@ -27,9 +27,11 @@ WORKFLOWS=(
 CHECKPOINT_MODELS=( 
 "https://civitai.com/api/download/models/1199750?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 "https://civitai.com/api/download/models/1767402?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+"https://huggingface.co/LarryAIDraw/prefectPonyXL_v10/resolve/main/prefectPonyXL_v10.safetensors"
 )
 
 UNET_MODELS=(
+"https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/resolve/main/wan2.1-i2v-14b-480p-Q5_0.gguf"
 )
 
 LORA_MODELS=(
